@@ -1,0 +1,64 @@
+/* Basic Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container */
+  div {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Slider */
+  #optionSlider {
+    width: 80%;
+    margin: 20px 0;
+    background: #ddd;
+    height: 8px;
+    border-radius: 4px;
+    appearance: none; /* Standard way to remove default styling */
+  }
+  
+  /* Slider Thumb for WebKit Browsers */
+  #optionSlider::-webkit-slider-thumb {
+    appearance: none; /* Standard way to remove default styling */
+    background: #007bff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Slider Thumb for Mozilla Browsers */
+  #optionSlider::-moz-range-thumb {
+    background: #007bff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Button */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Status Text */
+  #status {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
