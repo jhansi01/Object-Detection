@@ -1,64 +1,66 @@
-/* Basic Reset */
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Container */
-  div {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  /* Slider */
-  #optionSlider {
-    width: 80%;
-    margin: 20px 0;
-    background: #ddd;
-    height: 8px;
-    border-radius: 4px;
-    appearance: none; /* Standard way to remove default styling */
-  }
-  
-  /* Slider Thumb for WebKit Browsers */
-  #optionSlider::-webkit-slider-thumb {
-    appearance: none; /* Standard way to remove default styling */
-    background: #007bff;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  /* Slider Thumb for Mozilla Browsers */
-  #optionSlider::-moz-range-thumb {
-    background: #007bff;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  /* Button */
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Status Text */
-  #status {
-    font-size: 18px;
-    margin-top: 20px;
-  }
-  
+/* Navigation Bar */
+nav {
+  background-color: #f2f2f2;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  color: #007BFF;
+}
+
+/* Page Section */
+section {
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 1rem;
+}
+
+textarea {
+  width: 100%;
+  max-width: 600px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: 2px solid #0056b3;
+  outline-offset: 2px;
+}
